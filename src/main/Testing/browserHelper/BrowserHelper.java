@@ -5,6 +5,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -33,6 +34,11 @@ public class BrowserHelper {
     public void setChromeWebDriver() {
         WebDriverManager.chromedriver().setup();
         this.webDriver = new ChromeDriver();
+    }
+
+    public void setSafariWebDriver(){
+        WebDriverManager.edgedriver().setup();
+        this.webDriver = new EdgeDriver();
     }
 
     public static void waitForPageLoad() {
