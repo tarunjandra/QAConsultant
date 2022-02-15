@@ -15,7 +15,7 @@ How to use this Project.
 
 1. Open Intellij and Navigate to File -> New ->  Project From Version Control
 2. Select Repository URL
-3. Paste this link in URL "https://github.com/tarunjandra/UpgradeAssignment.git"
+3. Paste this link in URL "https://github.com/tarunjandra/QAConsultant.git"
 4. Provide path to the local folder to create local repository
 5. Press clone button
 6. Select Open projects in New Window
