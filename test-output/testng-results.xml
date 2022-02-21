@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default Suite" duration-ms="9360" started-at="2022-02-15T16:20:51Z" finished-at="2022-02-15T16:21:00Z">
+  <suite name="Default Suite" duration-ms="9267" started-at="2022-02-21T17:54:59Z" finished-at="2022-02-21T17:55:09Z">
     <groups>
     </groups>
-    <test name="QAConsultants" duration-ms="9360" started-at="2022-02-15T16:20:51Z" finished-at="2022-02-15T16:21:00Z">
+    <test name="QAConsultants" duration-ms="9267" started-at="2022-02-21T17:54:59Z" finished-at="2022-02-21T17:55:09Z">
       <class name="tests.WebScenario">
-        <test-method status="PASS" signature="setup()[pri:0, instance:tests.WebScenario@49e4cb85]" name="setup" is-config="true" duration-ms="5604" started-at="2022-02-15T16:20:51Z" finished-at="2022-02-15T16:20:56Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.WebScenario@2752f6e2]" name="setup" is-config="true" duration-ms="4910" started-at="2022-02-21T17:54:59Z" finished-at="2022-02-21T17:55:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validateTablesAreSame()[pri:1, instance:tests.WebScenario@49e4cb85]" name="validateTablesAreSame" duration-ms="3367" started-at="2022-02-15T16:20:57Z" finished-at="2022-02-15T16:21:00Z">
+        <test-method status="PASS" signature="validateTablesAreSame()[pri:1, instance:tests.WebScenario@2752f6e2]" name="validateTablesAreSame" duration-ms="4066" started-at="2022-02-21T17:55:04Z" finished-at="2022-02-21T17:55:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateTablesAreSame -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:tests.WebScenario@49e4cb85]" name="closeSession" is-config="true" duration-ms="137" started-at="2022-02-15T16:21:00Z" finished-at="2022-02-15T16:21:00Z">
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:tests.WebScenario@2752f6e2]" name="closeSession" is-config="true" duration-ms="150" started-at="2022-02-21T17:55:09Z" finished-at="2022-02-21T17:55:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeSession -->
