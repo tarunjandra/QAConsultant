@@ -12,7 +12,7 @@ public interface GenericTable {
 
     List<String> getHeaders();
 
-    List<TableData> getHeadersRow();
+    List<TableData> getHeadersRow(); //Assumption is made that there is possibility of having multiple header Rows
 
     List<TableData> getRows();
 

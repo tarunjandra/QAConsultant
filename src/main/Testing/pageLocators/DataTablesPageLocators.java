@@ -47,10 +47,12 @@ public class DataTablesPageLocators {
     }
 
     public By getHeaderTag() {
+
         return headerTag;
     }
 
     public By getRowTag() {
+
         return rowTag;
     }
 }

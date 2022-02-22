@@ -51,6 +51,7 @@ public class TableOperations implements GenericTable {
             tableData = storeDataInTableDataObject(headerRows.get(row), dataTablesPageLocators.getHeaderTag());
             headersTableData.add(tableData);
         }
+
         return headersTableData;
     }
 
@@ -60,12 +61,14 @@ public class TableOperations implements GenericTable {
         for (WebElement element : headerColumnTableElements) {
             list.add(element.getText());
         }
+
         return list;
     }
 
     @Override
     public TableData getRow(int index) {
         TableData tableData = storeDataInTableDataObject(dataRows.get(index), dataTablesPageLocators.getRowTag());
+
         return tableData;
     }
 
@@ -77,6 +80,7 @@ public class TableOperations implements GenericTable {
             rowsTableData.add(tableData);
         }
 
+        //Data is stored in collection with sorted by Last name
         Collections.sort(rowsTableData, new Comparator<TableData>() {
             @Override
             public int compare(TableData o1, TableData o2) {

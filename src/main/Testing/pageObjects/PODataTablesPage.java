@@ -2,7 +2,6 @@ package pageObjects;
 
 import Data.TableData;
 import org.openqa.selenium.WebDriver;
-import pageLocators.DataTablesPageLocators;
 import utils.TableOperations;
 import utils.GenericTable;
 
@@ -11,7 +10,6 @@ import java.util.List;
 public class PODataTablesPage {
 
     private WebDriver webDriver = null;
-    DataTablesPageLocators dataTablesPageLocators = new DataTablesPageLocators();
     GenericTable exampleOne = new TableOperations();
     GenericTable exampleTwo = new TableOperations();
 
@@ -30,7 +28,6 @@ public class PODataTablesPage {
     public Boolean validateNumberOfHeaderRowsEqualInTables() {
         Boolean flag = false;
         initializer();
-
         if (exampleOne.getHeadersRow().size() == exampleTwo.getHeadersRow().size()) {
             flag = true;
         }
@@ -64,7 +61,6 @@ public class PODataTablesPage {
         }
         return flag;
     }
-
 
     public Boolean validateDataIsSameInTables() {
         Boolean flag = false;

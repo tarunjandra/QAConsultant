@@ -1,5 +1,11 @@
 # QAConsultant Assignment
 
+Presumptions Made While implementing the solution are as follow:
+1. Number of Header Rows can be more than 1
+2. Order of columns is fixed
+3. Instead of creating two separate classes for operations on table 1 & 2 by extending GenericTable interface only one class TableOperations is created which can handle both tables.
+4. Solution is implemented in way that it can be easily scalable if number of data rows, header rows, or number of tables increase.
+
 General Information about the project and environment.
 
 1. Provided Solution is for the Web Data Tables.
